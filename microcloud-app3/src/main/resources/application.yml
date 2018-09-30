@@ -1,0 +1,20 @@
+server:
+  port: 8765
+
+
+spring:
+  application:
+    name: microcloud-app3
+
+eureka:
+  instance:
+    appname: ${spring.application.name}
+    leaseRenewalIntervalInSeconds: 10
+    leaseExpirationDurationInSeconds: 30
+  client:
+    serviceUrl:
+      defaultZone: http://admin:1q2w3e4r!@127.0.0.1:1234/eureka/
+
+ribbon:
+  eureka:
+    enabled: true
