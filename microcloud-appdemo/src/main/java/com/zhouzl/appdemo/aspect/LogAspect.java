@@ -30,6 +30,7 @@ public class LogAspect {
 	public void performaceAfter() {
 		System.out.println("Springboot AOP-----After");
 		System.out.println(demoClass.getClassNameDemo());
+		demoClass.setClassNameDemo("DemoClass");
 	}
 	
 }
