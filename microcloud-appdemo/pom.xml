@@ -15,5 +15,9 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 		<!-- spring-cloud 客服端 end -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
 	</dependencies>
 </project>
