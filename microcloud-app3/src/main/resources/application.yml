@@ -5,6 +5,8 @@ server:
 spring:
   application:
     name: microcloud-app3
+  jmx: 
+    default-domain: microcloud-app3
 
 eureka:
   instance:

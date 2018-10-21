@@ -1,3 +1,9 @@
+spring:
+  application:
+    name: microcloud-register
+  jmx: 
+    default-domain: microcloud-register
+
 server:
   port: 1234
 
